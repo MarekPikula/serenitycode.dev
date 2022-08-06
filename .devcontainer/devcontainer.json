@@ -22,11 +22,12 @@
 	"settings": {
 		"html.format.templating": true,
 	},
-	
+
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
 		"bungcip.better-toml",
-		"davidanson.vscode-markdownlint"
+		"davidanson.vscode-markdownlint",
+		"redhat.vscode-yaml"
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.

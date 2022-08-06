@@ -41,7 +41,7 @@ really have support for any Altera/Intel products whatsoever.
 
 My goal was to port the code, which synthesized beautifully on Xilinx Vivado,
 to work on Altera Cyclone V on Terasic DE10-Nano board. To my discontent the
-toolchain didn't support the code base and it reported errors for various
+toolchain didn't support the code base, and it reported errors for various
 unsupported syntax constructs.
 
 To my greater discontent after successful synthesis the design didn't work,
@@ -50,7 +50,7 @@ resulted in countless hours spent on trying to get it working. It resulted in
 loads of patches, which worked around different incompatibilities.
 
 This document is currently work in progress since the porting isn't finished
-yet, but the author wanted to make a catalog of all the little things he
+yet, but the author wanted to make a catalogue of all the little things he
 stumbled upon for future reference, while working on the code.
 
 I hope that provided examples will make lives easier for those of us, who are
@@ -89,10 +89,10 @@ error message is relevant it is attached in description as well.
 > | 6.20.3 | Type parameters | Not supported |
 > | -      | --              | -----         |
 
-Quartus might report it as veriety of errors depending on context. The basic one
+Quartus might report it as variety of errors depending on context. The basic one
 is error [10170](https://www.intel.com/content/www/us/en/programmable/quartushelp/18.1/index.htm#msgs/msgs/evrfx_veri_syntax_error.htm)
 with a comment: _Verilog HDL syntax error at <location> near text: "type";
-expecting an identifier ("type" is a reserved keyword )._.
+expecting an identifier (“type” is a reserved keyword )._.
 
 #### IEEE standard
 
@@ -102,8 +102,8 @@ expecting an identifier ("type" is a reserved keyword )._.
 
 #### Unsupported features
 
-As indicated by Quartus documentation type parameters are not supported at all.
-Depending on context it might require different solutions. For example if
+Quartus documentation indicates that the type parameters are not supported at
+all. Depending on context it might require different solutions. For example if
 expected type is plain `logic` or `logic` vector it is possible to parametrize
 the module with vector width, as seen in an example. The same is for other
 datatypes with defined bit width. Width of data types such as structs can be
@@ -177,7 +177,7 @@ Quartus might report it as error [10355](https://www.intel.com/content/www/us/en
 #### Unsupported features
 
 Integer value expressions are not evaluated in the context of a cast to the
-enum base type. If no width is given it is assumed that given value is a 32-bit
+enum base type. If no width is given, it is assumed that given value is a 32-bit
 integer. Solution to this issue is to explicitly state the width of constant to
 `enum` base type width.
 
@@ -255,8 +255,8 @@ construct depending on underlying code:
 
 ### Rules for determining port kind, data type and direction (23.2.2.3)
 
-In my personal opinion Quartus' behavior in this particular case is really good
-as it acts as a linter reducing chances of mistype.
+In my personal opinion Quartus' behaviour in this particular case is really
+good as it acts as a linter reducing chances of mistype.
 
 #### Quartus documentation
 
@@ -402,8 +402,8 @@ endgenerate
 ### Double semicolon
 
 It's not particularly bad thing of Quartus to point out. It could be considered
-a correctly assesed linter error. It doesn't like double semicolons at the end
-of a line.
+a correctly assessed linter error. Quartus doesn't like double semicolons at
+the end of a line.
 
 Quartus might report it as error
 [10170](https://www.intel.com/content/www/us/en/programmable/quartushelp/18.1/index.htm#msgs/msgs/evrfx_veri_syntax_error.htm).
@@ -444,7 +444,7 @@ RTL.
 
 If given output node should be driven by some other nodes depending on case, it
 should be visible in RTL. The hard way is to trace all the wires in full view.
-The easy way is to right click on the problematic node and select
+The easy way is to right-click on the problematic node and select
 *Filter→Sources* (or *Shift+S*).
 
 This is particularly useful for verifying `case` statements.

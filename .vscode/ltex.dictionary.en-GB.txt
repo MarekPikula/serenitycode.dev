@@ -1,0 +1,9 @@
+Quartus
+SystemVerilog
+PULPissimo
+Xilinx
+Vivado
+Synopsys
+Altera
+Terasic
+Netlist

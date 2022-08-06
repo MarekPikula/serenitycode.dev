@@ -1,0 +1,3 @@
+[submodule "theme/hugo-notice"]
+	path = theme/hugo-notice
+	url = https://github.com/martignoni/hugo-notice.git

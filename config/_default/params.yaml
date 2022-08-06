@@ -58,7 +58,7 @@ imageProcessing:
 
 ## Comments
 comments:
-  enabled: true
+  enabled: false
   provider: disqus
   disqusjs:
     shortname: ""

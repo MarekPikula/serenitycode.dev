@@ -9,6 +9,11 @@ image: quartus-sv-gotchas.jpg
 date: 2019-09-18 00:00:00+0000
 categories:
   - embedded
+tags:
+  - SystemVerilog
+  - Intel Quartus
+  - FPGA
+  - RISC-V
 ---
 
 > This write-up was originally posted on GitHub in [a separate

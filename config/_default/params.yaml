@@ -5,10 +5,10 @@ mainSections:
 rssFullContent: true
 footer:
   since: 2022
-  customText: ''
+  customText: ""
 dateFormat:
-  published: '2 January 2006'
-  lastUpdated: '2 January 2006 15:04 MST'
+  published: "2 January 2006"
+  lastUpdated: "2 January 2006 15:04 MST"
 sidebar:
   emoji: "🍥"
   subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
@@ -39,13 +39,13 @@ widgets:
     - type: toc
 opengraph:
   twitter:
-    site: ''
+    site: ""
     card: summary_large_image
 defaultImage:
   opengraph:
     enabled: false
     local: false
-    src: ''
+    src: ""
 colorScheme:
   toggle: true
   default: auto
@@ -54,70 +54,71 @@ imageProcessing:
     enabled: true
   content:
     enabled: true
+
 ## Comments
 comments:
   enabled: true
   provider: disqus
   disqusjs:
-    shortname: ''
-    apiUrl: ''
-    apiKey: ''
-    admin: ''
-    adminLabel: ''
+    shortname: ""
+    apiUrl: ""
+    apiKey: ""
+    admin: ""
+    adminLabel: ""
   utterances:
-    repo: ''
+    repo: ""
     issueTerm: pathname
-    label: ''
+    label: ""
   remark42:
-    host: ''
-    site: ''
-    locale: ''
+    host: ""
+    site: ""
+    locale: ""
   vssue:
-    platform: ''
-    owner: ''
-    repo: ''
-    clientId: ''
-    clientSecret: ''
+    platform: ""
+    owner: ""
+    repo: ""
+    clientId: ""
+    clientSecret: ""
     autoCreateIssue: false
   waline:
-    serverURL: ''
-    lang: ''
-    visitor: ''
-    avatar: ''
+    serverURL: ""
+    lang: ""
+    visitor: ""
+    avatar: ""
     emoji:
-      - 'https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo'
+      - "https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo"
     requiredMeta:
       - name
       - email
       - url
-    placeholder: ''
+    placeholder: ""
     locale:
       admin: Admin
   twikoo:
-    envId: ''
-    region: ''
-    path: ''
-    lang: ''
+    envId: ""
+    region: ""
+    path: ""
+    lang: ""
   cactus:
-    defaultHomeserverUrl: 'https://matrix.cactus.chat:8448'
+    defaultHomeserverUrl: "https://matrix.cactus.chat:8448"
     serverName: cactus.chat
-    siteName: ''
+    siteName: ""
   giscus:
-    repo: ''
-    repoID: ''
-    category: ''
-    categoryID: ''
-    mapping: ''
-    lightTheme: ''
-    darkTheme: ''
+    repo: ""
+    repoID: ""
+    category: ""
+    categoryID: ""
+    mapping: ""
+    lightTheme: ""
+    darkTheme: ""
     reactionsEnabled: 1
     emitMetadata: 0
   gitalk:
-    owner: ''
-    admin: ''
-    repo: ''
-    clientID: ''
-    clientSecret: ''
+    owner: ""
+    admin: ""
+    repo: ""
+    clientID: ""
+    clientSecret: ""
   cusdis:
-    host: ''
-    id: ''
+    host: ""
+    id: ""

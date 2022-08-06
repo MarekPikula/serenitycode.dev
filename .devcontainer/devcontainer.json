@@ -27,7 +27,8 @@
 	"extensions": [
 		"bungcip.better-toml",
 		"davidanson.vscode-markdownlint",
-		"redhat.vscode-yaml"
+		"mhutchie.git-graph",
+		"redhat.vscode-yaml",
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.

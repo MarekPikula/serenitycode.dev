@@ -11,7 +11,7 @@ dateFormat:
   lastUpdated: "2 January 2006 15:04 MST"
 sidebar:
   emoji: "🍥"
-  subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+  subtitle: "FPGA developer by day, DevOps engineer by night."
   avatar:
     enabled: true
     local: true

@@ -1,19 +1,22 @@
 ---
 title: Hello World
-description: Welcome to Hugo Theme Stack
+description: Welcome to my blog. In the first post I would like to let you to know me better 🙂
 slug: hello-world
 date: 2022-03-06 00:00:00+0000
-image: cover.jpg
-categories:
-    - Example Category
-tags:
-    - Example Tag
 ---
 
-Welcome to Hugo theme Stack. This is your first post. Edit or delete it, then start writing!
+FPGA developer by day, DevOps engineer by night.
 
-For more information about this theme, check the documentation: https://docs.stack.jimmycai.com/
+I strive to create high-quality, well-tested and documented solutions in
+established technologies while actively exploring the new and shiny. Deeply in
+love with functional programming (Scala ♥️) and declarative UI development
+(Flutter 👌). For tooling, automation, Docker and CI, I'm your man.
 
-Want a site like this? Check out [hugo-theme-stack-stater](https://github.com/CaiJimmy/hugo-theme-stack-starter)
+I feel the best in complex projects requiring both system-level and in-detail
+perspectives, connecting multiple domains from hardware through gateware and
+firmware up to the software. There's nothing better than a perfectly integrated
+project delivered on time that serves the client's needs.
 
-> Photo by [Pawel Czerwinski](https://unsplash.com/@pawel_czerwinski) on [Unsplash](https://unsplash.com/)
+In my spare time, I like to play tennis. I also have lots of 3D printing
+experience, which I gladly share, and a deep interest in space exploration and
+cutting-edge technologies.

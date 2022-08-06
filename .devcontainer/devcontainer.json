@@ -29,6 +29,7 @@
 		"davidanson.vscode-markdownlint",
 		"mhutchie.git-graph",
 		"redhat.vscode-yaml",
+		"shuworks.vscode-table-formatter",
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.

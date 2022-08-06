@@ -23,7 +23,9 @@ RUN apt-get update && apt-get install -y ca-certificates openssl git curl && \
 EXPOSE 1313
 
 RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
-    && apt-get -y install --no-install-recommends fish
+    && apt-get -y install --no-install-recommends \
+        fish \
+        git-lfs
 
 # [Optional] Uncomment if you want to install more global node packages
 # RUN sudo -u node npm install -g <your-package-list-here>

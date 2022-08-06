@@ -7,6 +7,8 @@ description: |
 slug: quartus-systemverilog
 image: quartus-sv-gotchas.jpg
 date: 2019-09-18 00:00:00+0000
+categories:
+  - embedded
 ---
 
 > This write-up was originally posted on GitHub in [a separate

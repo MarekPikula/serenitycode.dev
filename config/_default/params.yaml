@@ -23,6 +23,12 @@ article:
     enabled: true
     default: Licensed under CC BY-SA 4.0
 
+plausible:
+  enable: true
+  domain: pikula.co
+  selfhosted_domain: plausible.pikula.co
+  gitstar: false
+
 ## Widgets
 widgets:
   homepage:

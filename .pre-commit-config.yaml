@@ -21,3 +21,12 @@ repos:
       - id: poetry-lock
       - id: poetry-export
         args: ["-f", "requirements.txt", "-o", "requirements.txt"]
+  - repo: local
+    hooks:
+    - id: hugo
+      name: Regenerate Hugo resources
+      description: This hook regenerates Hugo resources to be commited to repo.
+      entry: hugo --gc
+      pass_filenames: false
+      always_run: true
+      language: system

@@ -1,7 +1,6 @@
 ## https://github.com/github/gitignore/blob/main/community/Golang/Hugo.gitignore
 # Generated files by hugo
 /public/
-/resources/_gen/
 /assets/jsconfig.json
 hugo_stats.json
 

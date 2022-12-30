@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "pikula.co"
+name = "serenitycode.dev"
 version = "0.1.0"
 description = "Marek Pikuła – a personal blog"
 authors = ["Marek Pikuła <marek@pikula.co>"]

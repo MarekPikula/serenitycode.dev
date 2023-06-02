@@ -16,8 +16,10 @@ tags:
   - RISC-V
 ---
 
-> This write-up was originally posted on GitHub in [a separate
-> repository](https://github.com/MarekPikula/quartus-sv-gotchas).
+{{< notice note >}}
+This write-up was originally posted on GitHub in [a separate
+repository](https://github.com/MarekPikula/quartus-sv-gotchas).
+{{< /notice >}}
 
 ## Introduction
 

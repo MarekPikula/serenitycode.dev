@@ -23,6 +23,7 @@
 			"extensions": [
 				"bungcip.better-toml",
 				"davidanson.vscode-markdownlint",
+				"github.vscode-github-actions",
 				"mhutchie.git-graph",
 				"ms-python.python",
 				"redhat.vscode-yaml",

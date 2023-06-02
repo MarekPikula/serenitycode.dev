@@ -3,6 +3,8 @@ name: Build devcontainer cache
 on:
   push:
     branches: [ main ]
+    paths:
+      - ".devcontainer/**"
   schedule:
     - cron: "0 0 * * 0"
 

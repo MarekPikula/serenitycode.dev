@@ -9,3 +9,12 @@ social:
     url: "https://www.linkedin.com/in/marek-pikula/"
     params:
       icon: "brand-linkedin"
+
+main:
+  - identifier: "kofi"
+    name: "Buy Me a Ko-fi"
+    url: "https://ko-fi.com/marekpikula"
+    weight: -100
+    params:
+      icon: "coffee"
+      newTab: true

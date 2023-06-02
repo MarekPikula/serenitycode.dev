@@ -1,7 +1,7 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
 // https://github.com/microsoft/vscode-dev-containers/tree/v0.202.3/containers/hugo
 {
-	"name": "Hugo (Community)",
+	"name": "serenitycode.dev",
 	"build": {
 		"dockerfile": "Dockerfile",
 		"args": {
@@ -15,24 +15,34 @@
 			"VERSION": "latest",
 			// Update NODE_VERSION to pick the Node.js version: 12, 14
 			"NODE_VERSION": "14",
+		},
+		"cacheFrom": "ghcr.io/marekpikula/serenitycode.dev/devcontainer"
+	},
+	"features": {
+		"golang": "1.17.8",
+		"ghcr.io/meaningful-ooo/devcontainer-features/fish:1": {},
+		"ghcr.io/devcontainers-contrib/features/poetry:2": {}
+	},
+
+	"customizations": {
+		"vscode": {
+			// Set *default* container specific settings.json values on container create.
+			"settings": {
+				"html.format.templating": true,
+			},
+
+			// Add the IDs of extensions you want installed when the container is created.
+			"extensions": [
+				"bungcip.better-toml",
+				"davidanson.vscode-markdownlint",
+				"mhutchie.git-graph",
+				"ms-python.python",
+				"redhat.vscode-yaml",
+				"shuworks.vscode-table-formatter",
+				"valentjn.vscode-ltex",
+			],
 		}
 	},
-
-	// Set *default* container specific settings.json values on container create.
-	"settings": {
-		"html.format.templating": true,
-	},
-
-	// Add the IDs of extensions you want installed when the container is created.
-	"extensions": [
-		"bungcip.better-toml",
-		"davidanson.vscode-markdownlint",
-		"mhutchie.git-graph",
-		"ms-python.python",
-		"redhat.vscode-yaml",
-		"shuworks.vscode-table-formatter",
-		"valentjn.vscode-ltex",
-	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	"forwardPorts": [
@@ -44,7 +54,4 @@
 
 	// Comment out connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
 	"remoteUser": "node",
-	"features": {
-		"golang": "1.17.8"
-	}
 }

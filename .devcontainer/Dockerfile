@@ -21,15 +21,3 @@ RUN apt-get update && apt-get install -y ca-certificates openssl git curl && \
 
 # Hugo dev server port
 EXPOSE 1313
-
-ENV POETRY_HOME=/usr/local/poetry
-ENV PATH="${POETRY_HOME}/bin:${PATH}"
-
-RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
-    && apt-get -y install --no-install-recommends \
-        fish \
-        git-lfs \
-        python3 \
-    && curl -sSL https://install.python-poetry.org | python3 - \
-    && poetry completions bash > /etc/bash_completion.d/poetry \
-    && poetry completions fish > /etc/fish/completions/poetry

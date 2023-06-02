@@ -99,7 +99,7 @@ or video format. Eventually, my dream is to attend a conference as a speaker,
 but that needs to wait for a while 😉
 
 I will be happy to hear back from you if you find my posts helpful or
-interesting. You can contact me by e-mail (marek at pikula dot co) or on Matrix
-([@marekpikula:matrix.org](https://matrix.to/#/@marekpikula:matrix.org)).
+interesting. You can contact me by e-mail (marek at serenitycode dot dev) or on
+Matrix ([@marekpikula:matrix.org](https://matrix.to/#/@marekpikula:matrix.org)).
 
 In the end, there is nothing else left but to start writing. Wish me luck 🤞

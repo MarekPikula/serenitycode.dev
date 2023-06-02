@@ -1,5 +1,5 @@
 # Change baseurl before deploy
-baseurl: "https://pikula.co"
+baseurl: "https://serenitycode.dev"
 languageCode: "en-us"
 paginate: 5
 title: "Marek Pikuła – a personal blog"

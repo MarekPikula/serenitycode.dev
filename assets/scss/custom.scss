@@ -1,0 +1,18 @@
+// Improve quote formatting.
+.article-content {
+    blockquote:before {
+        content: "”";
+        opacity: 50%;
+        font-family: serif;
+        font-size: 4em;
+        margin-top: -0.4em;
+        display: block;
+        margin-bottom: -1.0em;
+    }
+
+    blockquote {
+        position: relative;
+        font-weight: 600;
+        font-size: 1.2em;
+    }
+}

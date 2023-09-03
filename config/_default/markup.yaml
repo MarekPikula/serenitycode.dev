@@ -1,7 +1,7 @@
 # Markdown renderer configuration
 goldmark:
   renderer:
-    unsafe: false
+    unsafe: true
 
 tableOfContents:
   endLevel: 4

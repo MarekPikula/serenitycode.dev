@@ -9,3 +9,5 @@ Terasic
 Netlist
 gateware
 Embevity
+Pipelined
+Blackwire

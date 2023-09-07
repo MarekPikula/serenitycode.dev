@@ -9,3 +9,8 @@ social:
     url: "https://www.linkedin.com/in/marek-pikula/"
     params:
       icon: "brand-linkedin"
+  - identifier: "medium"
+    name: "Medium"
+    url: "https://medium.com/@MarekPikula"
+    params:
+      icon: "brand-medium"

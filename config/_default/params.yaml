@@ -63,8 +63,9 @@ imageProcessing:
     enabled: true
 
 ## Comments
+disqusShortname: marekpikula
 comments:
-  enabled: false
+  enabled: true
   provider: disqus
   disqusjs:
     shortname: ""

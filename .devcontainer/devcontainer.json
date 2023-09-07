@@ -26,9 +26,10 @@
 				"github.vscode-github-actions",
 				"mhutchie.git-graph",
 				"ms-python.python",
+				"redhat.vscode-xml",
 				"redhat.vscode-yaml",
 				"shuworks.vscode-table-formatter",
-				"valentjn.vscode-ltex",
+				"valentjn.vscode-ltex"
 			],
 		}
 	},

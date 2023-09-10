@@ -11,8 +11,6 @@
 		"ghcr.io/devcontainers/features/hugo:1": {
 			"extended": true
 		},
-		"ghcr.io/devcontainers/features/python:1": {},
-		"ghcr.io/devcontainers-contrib/features/poetry:2": {},
 		"ghcr.io/meaningful-ooo/devcontainer-features/fish:1": {},
 		"ghcr.io/devcontainers/features/git-lfs:1": {},
 	},

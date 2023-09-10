@@ -16,3 +16,17 @@
         font-size: 1.2em;
     }
 }
+
+// Format featured image caption
+.article-image {
+    figure {
+        margin: 0;
+    }
+
+    figcaption {
+        font-size: 1.4rem;
+        color: var(--card-text-color-secondary);
+        padding: 5px;
+        text-align: center;
+      }
+}

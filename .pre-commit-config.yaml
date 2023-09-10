@@ -24,3 +24,11 @@ repos:
       pass_filenames: false
       always_run: true
       language: system
+  - repo: local
+    hooks:
+    - id: optipng
+      name: Optimize PNG files
+      description: This hook tries to optimize PNG files.
+      entry: optipng
+      files: \.png$
+      language: system

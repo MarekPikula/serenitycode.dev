@@ -25,7 +25,7 @@ article:
 
 plausible:
   enable: true
-  domain: pikula.co
+  domain: serenitycode.dev
   selfhosted_domain: plausible.pikula.co
   gitstar: false
 

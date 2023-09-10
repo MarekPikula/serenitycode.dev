@@ -23,12 +23,6 @@ article:
     enabled: true
     default: Licensed under CC BY-SA 4.0
 
-plausible:
-  enable: true
-  domain: serenitycode.dev
-  selfhosted_domain: plausible.pikula.co
-  gitstar: false
-
 ## Widgets
 widgets:
   homepage:

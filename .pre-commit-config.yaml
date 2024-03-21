@@ -32,3 +32,8 @@ repos:
       entry: optipng
       files: \.png$
       language: system
+
+ci:
+  skip:
+    - hugo
+    - optipng

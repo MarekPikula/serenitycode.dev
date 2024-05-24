@@ -1,4 +1,4 @@
-module github.com/MarekPikula/pikula.co
+module github.com/MarekPikula/serenitycode.dev
 
 go 1.17
 

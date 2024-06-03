@@ -1,4 +1,11 @@
 repos:
+  - repo: https://github.com/KAUTH/git-lfs-hooks
+    rev: "v3.3.0"
+    hooks:
+      - id: post-checkout
+      - id: post-commit
+      - id: post-merge
+      - id: pre-push
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: "v4.6.0"
     hooks:
@@ -17,13 +24,13 @@ repos:
       - id: check-json5
   - repo: local
     hooks:
-    - id: hugo
-      name: Regenerate Hugo resources
-      description: This hook regenerates Hugo resources to be commited to repo.
-      entry: hugo --gc --minify
-      pass_filenames: false
-      always_run: true
-      language: system
+      - id: hugo
+        name: Regenerate Hugo resources
+        description: This hook regenerates Hugo resources to be commited to repo.
+        entry: hugo --gc --minify
+        pass_filenames: false
+        always_run: true
+        language: system
   - repo: https://github.com/shssoichiro/oxipng
     rev: v9.1.1
     hooks:

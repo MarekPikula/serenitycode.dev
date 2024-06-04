@@ -42,14 +42,6 @@ jobs:
         run: git lfs checkout
 
       # Hugo setup
-      - name: Cache Hugo resources
-        uses: actions/cache@v4
-        env:
-          cache-name: cache-hugo-resources
-        with:
-          path: resources
-          key: ${{ env.cache-name }}
-
       - uses: actions/setup-go@v5
         with:
           go-version: "stable"

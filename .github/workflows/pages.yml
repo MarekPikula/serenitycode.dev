@@ -23,13 +23,6 @@ defaults:
     shell: bash
 
 jobs:
-  pre-commit:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v4
-      with:
-        lfs: true
-
   build:
     runs-on: ubuntu-latest
 

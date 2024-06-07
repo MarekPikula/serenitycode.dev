@@ -15,11 +15,6 @@ repos:
     rev: "v1.0.0"
     hooks:
       - id: check-json5
-  - repo: https://github.com/shssoichiro/oxipng
-    rev: v9.1.1
-    hooks:
-      - id: oxipng
-        args: ["-o", "max", "--strip", "safe"]
   - repo: local
     hooks:
     - id: hugo
@@ -29,6 +24,11 @@ repos:
       pass_filenames: false
       always_run: true
       language: system
+  - repo: https://github.com/shssoichiro/oxipng
+    rev: v9.1.1
+    hooks:
+      - id: oxipng
+        args: ["-o", "max", "--strip", "safe"]
 
 ci:
   skip:

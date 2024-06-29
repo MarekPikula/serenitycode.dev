@@ -5,4 +5,18 @@
             "config/_default/config.yaml"
         ]
     },
+    "cSpell.words": [
+        "autovectorization",
+        "Chipyard",
+        "Lipiak",
+        "memcpy",
+        "pixman",
+        "riscv",
+        "SpacemiT",
+        "SYCL",
+        "Tenstorrent",
+        "Tizen",
+        "Verilator",
+        "VLEN"
+    ],
 }

@@ -9,6 +9,7 @@ image: quartus-sv-gotchas.jpg
 date: 2019-09-18 00:00:00+0000
 categories:
   - embedded
+  - fpga
 tags:
   - SystemVerilog
   - Intel Quartus

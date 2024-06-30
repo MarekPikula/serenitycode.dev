@@ -21,6 +21,10 @@ repos:
       - id: djhtml
       - id: djcss
       - id: djjs
+  - repo: https://github.com/tcort/markdown-link-check
+    rev: "v3.12.2"
+    hooks:
+      - id: markdown-link-check
   - repo: local
     hooks:
     - id: hugo
@@ -39,4 +43,5 @@ repos:
 ci:
   skip:
     - hugo
+    - markdown-link-check
     - oxipng

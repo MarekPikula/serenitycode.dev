@@ -24,8 +24,10 @@ repository](https://github.com/MarekPikula/quartus-sv-gotchas).
 
 ## Introduction
 
+<!-- markdown-link-check-disable -->
 In [official documentation](https://www.intel.com/content/www/us/en/programmable/quartushelp/18.1/index.htm#hdl/vlog/vlog_list_sys_vlog.htm)
 of Intel Quartus Prime 18.1 it is stated that:
+<!-- markdown-link-check-enable -->
 
 > Intel® Quartus® Prime synthesis supports the following Verilog HDL language
 > standards:
@@ -99,10 +101,12 @@ error message is relevant it is attached in description as well.
 > | 6.20.3 | Type parameters | Not supported |
 > | -      | --              | -----         |
 
+<!-- markdown-link-check-disable -->
 Quartus might report it as variety of errors depending on context. The basic one
 is error [10170](https://www.intel.com/content/www/us/en/programmable/quartushelp/18.1/index.htm#msgs/msgs/evrfx_veri_syntax_error.htm)
 with a comment: _Verilog HDL syntax error at <location> near text: "type";
 expecting an identifier (“type” is a reserved keyword )._.
+<!-- markdown-link-check-enable -->
 
 #### IEEE standard
 
@@ -176,7 +180,9 @@ integer value expressions elaborated in *Unsupported features* section.
 > | 6.19 | Enumerations | Supported |
 > | -    | --           | -----     |
 
+<!-- markdown-link-check-disable -->
 Quartus might report it as error [10355](https://www.intel.com/content/www/us/en/programmable/quartushelp/18.1/index.htm#msgs/msgs/evrfx_sv_enum_encoded_value_width_mismatch.htm).
+<!-- markdown-link-check-enable -->
 
 #### IEEE standard
 
@@ -238,7 +244,7 @@ There are three basic cases of set membership:
 
 #### Quartus documentation
 
-Since [11.4.13](#11413-set-membership-operator) is not supported it can be
+Since [11.4.13](#set-membership-operator-11413) is not supported it can be
 easily deduced that 12.5.4 won't be supported either.
 
 > | 12.4-12.5 | Selection statement | Supported (unique/priority supported only on case statements) |
@@ -273,9 +279,11 @@ good as it acts as a linter reducing chances of mistype.
 > | 23.2.2 | Port declarations | Supported |
 > | -      | --                | -----     |
 
+<!-- markdown-link-check-disable -->
 Quartus might report it as error
 [10170](https://www.intel.com/content/www/us/en/programmable/quartushelp/18.1/index.htm#msgs/msgs/evrfx_veri_syntax_error.htm)
 with a comment *"expecting a direction"*.
+<!-- markdown-link-check-enable -->
 
 #### IEEE standard
 
@@ -366,7 +374,9 @@ endgenerate
 
 No reference to section 27.
 
+<!-- markdown-link-check-disable -->
 Quartus might report it as error [10170](https://www.intel.com/content/www/us/en/programmable/quartushelp/18.1/index.htm#msgs/msgs/evrfx_veri_syntax_error.htm).
+<!-- markdown-link-check-enable -->
 
 #### IEEE standard
 
@@ -415,8 +425,10 @@ It's not particularly bad thing of Quartus to point out. It could be considered
 a correctly assessed linter error. Quartus doesn't like double semicolons at
 the end of a line.
 
+<!-- markdown-link-check-disable -->
 Quartus might report it as error
 [10170](https://www.intel.com/content/www/us/en/programmable/quartushelp/18.1/index.htm#msgs/msgs/evrfx_veri_syntax_error.htm).
+<!-- markdown-link-check-enable -->
 
 ## Synthesis gotchas
 

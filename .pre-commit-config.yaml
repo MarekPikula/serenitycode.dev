@@ -1,6 +1,6 @@
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: "v4.6.0"
+    rev: "v5.0.0"
     hooks:
       - id: check-merge-conflict
       - id: check-toml
@@ -16,7 +16,7 @@ repos:
     hooks:
       - id: check-json5
   - repo: https://github.com/rtts/djhtml
-    rev: "3.0.6"
+    rev: "3.0.7"
     hooks:
       - id: djhtml
       - id: djcss
@@ -35,7 +35,7 @@ repos:
       always_run: true
       language: system
   - repo: https://github.com/shssoichiro/oxipng
-    rev: v9.1.1
+    rev: v9.1.2
     hooks:
       - id: oxipng
         args: ["-o", "max", "--strip", "safe"]

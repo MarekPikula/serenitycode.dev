@@ -4,7 +4,7 @@ mainSections:
 featuredImageField: image
 # Output page's full content in RSS.
 rssFullContent: true
-# favicon: # TODO: Add favicon
+favicon: /serenitycode-logo-blue.svg
 
 footer:
   since: 2022

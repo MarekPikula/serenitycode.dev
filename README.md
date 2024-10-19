@@ -1,4 +1,4 @@
-# Marek Pikuła – a personal blog
+# SerenityCode Marek Pikuła blog
 
 [![Deploy Hugo site to Pages](https://github.com/MarekPikula/serenitycode.dev/actions/workflows/pages.yml/badge.svg)](https://github.com/MarekPikula/serenitycode.dev/actions/workflows/pages.yml)
 

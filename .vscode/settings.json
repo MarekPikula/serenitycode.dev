@@ -8,6 +8,8 @@
     "cSpell.words": [
         "autovectorization",
         "Chipyard",
+        "cocotb",
+        "DFHDL",
         "Lipiak",
         "memcpy",
         "pixman",

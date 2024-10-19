@@ -53,7 +53,7 @@ jobs:
           cache: pip
 
       - name: Cache pre-commit environments
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           path: ~/.cache/pre-commit/
           key: pre-commit-4|${{ env.pythonLocation }}|${{ hashFiles('.pre-commit-config.yaml') }}
@@ -62,7 +62,7 @@ jobs:
         uses: pre-commit/action@v3.0.1
 
       - name: Apply pre-commit-ci-lite auto-fixes
-        uses: pre-commit-ci/lite-action@v1.0.2
+        uses: pre-commit-ci/lite-action@v1.1.0
         if: always()
 
       # Pages setup

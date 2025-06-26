@@ -36,7 +36,7 @@ core providing fixed-latency IP address lookup and CI setup.
 Open-sourced [on GitHub][Blackwire GitHub]. You can read more about the project
 [here][Blackwire LinkedIn].
 
-<small>01.2023—05.2023 at [BrightAI][BrightAI]<br>
+<small>01.2023—05.2023 at BrightAI<br>
 **Tech:** SpinalHDL, SystemVerilog, Xilinx Vivado, Wireguard, PCI-E, Docker,
 GitLab CI </small>
 
@@ -134,4 +134,3 @@ handling refactor.
 **Tech:** C++, GTK+, CMake, Autotools </small>
 
 [Embevity]: https://embevity.com/
-[BrightAI]: https://brightai.nl/

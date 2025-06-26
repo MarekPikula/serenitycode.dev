@@ -1,0 +1,2 @@
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\Q{{< youtube IjZXPOQnRFQ >}}\\E$"}
+{"rule":"THREE_NN","sentence":"^\\QWe first rolled this out for Pixman, a pixel manipulation library used by Cairo and some Wayland compositors, where we added RVV SIMD support and uncovered several bugs through automated CI.\\E$"}

@@ -104,7 +104,7 @@ design </small>
 
 ## Notable open-source contributions
 
-### [Headscale-WebUI](https://github.com/iFargle/headscale-webui)
+### [Headscale-WebUI](https://github.com/Ssmidge/headscale-webui)
 
 Headscale frontend written with Flask. I was part of a major refactor effort,
 resulting in better quality and more understandable code.

@@ -1,0 +1,21 @@
+{
+  "ignorePatterns": [
+    {
+      "pattern": "^https://(www\\.)?frame\\.work/"
+    },
+    {
+      "pattern": "^https://(www\\.)?oneapi\\.io"
+    },
+    {
+      "pattern": "^https://(www\\.)?tizen\\.org"
+    }
+  ],
+  "aliveStatusCodes": [
+    200,
+    202,
+    206
+  ],
+  "retryOn429": true,
+  "retryCount": 3,
+  "fallbackRetryDelay": "30s"
+}
